@@ -26,4 +26,9 @@ public class testTank {
     public void tankHealth(){
         assertEquals(8.0, tank.getHealth(), 0.1);
     }
+
+    @Test
+    public void testDamageVehicle(){
+        assertEquals(7.0, tank.damageVechile(1.0),0.1);
+    }
 }

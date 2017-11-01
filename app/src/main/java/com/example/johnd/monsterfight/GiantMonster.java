@@ -28,8 +28,8 @@ public abstract class GiantMonster {
 
 
 
-    public Double attackVechile(Vehicle vehicle) {
-        return vehicle.health -= this.attackValue;
+   public Double attackVechile(Vehicle vehicle) {
+       return vehicle.damageVechile(this.attackValue);
 
     }
 }

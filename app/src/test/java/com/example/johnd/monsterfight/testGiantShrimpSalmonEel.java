@@ -32,7 +32,7 @@ public class testGiantShrimpSalmonEel {
 
     }
 
-    @Test
+   @Test
     public void monsterCanAttackVechile() {
         specemin.attackVechile(tank);
         assertEquals(6.0, tank.getHealth(), 0.1);

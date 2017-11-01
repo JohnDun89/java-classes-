@@ -7,7 +7,7 @@ package com.example.johnd.monsterfight;
 public abstract class Vehicle {
 
     private String type;
-    Double health;
+    private Double health;
 
     public Vehicle(String type, Double health){
         this.type = type;
@@ -20,5 +20,9 @@ public abstract class Vehicle {
 
     public Double getHealth(){
         return this.health;
+    }
+
+    public Double damageVechile(Double amount){
+        return this.health -= amount;
     }
 }

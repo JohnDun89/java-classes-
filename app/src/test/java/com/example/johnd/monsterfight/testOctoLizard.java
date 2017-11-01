@@ -24,9 +24,9 @@ public class testOctoLizard {
         assertEquals("buuu", octoLizard.roar());
     }
 
-    @Test
+   @Test
     public void canAttack(){
-        octoLizard.attackVechile(submarine);
+       octoLizard.attackVechile(submarine);
         assertEquals(9.0, submarine.getHealth(), 0.1);
 
     }
