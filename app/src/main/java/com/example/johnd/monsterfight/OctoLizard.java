@@ -13,7 +13,7 @@ public class OctoLizard extends GiantMonster {
                 attackValue
         );
     }
-    public String roar() {
+    protected String roar() {
         return ("buuu");
 
     }

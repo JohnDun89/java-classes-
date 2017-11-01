@@ -14,7 +14,7 @@ public class GiantShrimpSalmonEel extends GiantMonster {
         );
     }
 
-    public String roar() {
+    protected String roar() {
         return ("guuurp");
 
     }
