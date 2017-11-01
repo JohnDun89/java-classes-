@@ -25,4 +25,11 @@ public abstract class GiantMonster {
     public Double getAttackValue() {
         return this.attackValue;
     }
+
+
+
+    public Double attackVechile(Vehicle vehicle) {
+        return vehicle.health -= this.attackValue;
+
+    }
 }
