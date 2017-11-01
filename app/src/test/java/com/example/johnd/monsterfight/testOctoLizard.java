@@ -31,6 +31,11 @@ public class testOctoLizard {
 
     }
 
+    @Test
+    public void monsterCanMove(){
+        assertEquals("Slither", octoLizard.move());
+    }
+
 
 
 }

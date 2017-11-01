@@ -37,4 +37,9 @@ public class testGiantShrimpSalmonEel {
         specemin.attackVechile(tank);
         assertEquals(6.0, tank.getHealth(), 0.1);
     }
+
+    @Test
+    public void monsterCanMOve() {
+        assertEquals("Saunters", specemin.move());
+    }
 }

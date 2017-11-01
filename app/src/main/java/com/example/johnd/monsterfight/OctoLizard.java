@@ -15,6 +15,9 @@ public class OctoLizard extends GiantMonster {
     }
     protected String roar() {
         return ("buuu");
+    }
 
+    protected String move() {
+        return ("Slither");
     }
 }

@@ -16,6 +16,10 @@ public class GiantShrimpSalmonEel extends GiantMonster {
 
     protected String roar() {
         return ("guuurp");
-
     }
+
+    protected String move() {
+        return ("Saunters");
+    }
+
 }
