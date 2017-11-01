@@ -21,4 +21,9 @@ public class testTank {
     public void tankType(){
         assertEquals("Challanger 2", tank.getType());
     }
+
+    @Test
+    public void tankHealth(){
+        assertEquals(8.0, tank.getHealth(), 0.1);
+    }
 }
