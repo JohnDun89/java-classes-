@@ -12,6 +12,9 @@ public class OctoLizard extends GiantMonster {
                 healthValue,
                 attackValue
         );
+    }
+    public String roar() {
+        return ("buuu");
 
     }
 }

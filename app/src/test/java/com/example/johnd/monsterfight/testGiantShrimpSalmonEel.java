@@ -28,7 +28,5 @@ public class testGiantShrimpSalmonEel {
     public void speceminCanRoar(){
      assertEquals("guuurp", specemin.roar());
 
-
-
     }
 }
